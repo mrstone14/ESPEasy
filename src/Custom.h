@@ -132,13 +132,13 @@
 #define DEFAULT_MQTT_LWT_DISCONNECT_MESSAGE     "Connection Lost" // Default lwt message
 #define DEFAULT_MQTT_USE_UNITNAME_AS_CLIENTID   0
 
-#define DEFAULT_USE_NTP                         false             // (true|false) Use NTP Server
-#define DEFAULT_NTP_HOST                        ""                // NTP Server Hostname
-#define DEFAULT_TIME_ZONE                       0                 // Time Offset (in minutes)
+#define DEFAULT_USE_NTP                         true             // (true|false) Use NTP Server
+#define DEFAULT_NTP_HOST                        "us.pool.ntp.org"                // NTP Server Hostname
+#define DEFAULT_TIME_ZONE                       -420                 // Time Offset (in minutes)
 #define DEFAULT_USE_DST                         false             // (true|false) Use Daily Time Saving
 
-#define DEFAULT_LATITUDE                        0.0f              // Default Latitude  
-#define DEFAULT_LONGITUDE                       0.0f              // Default Longitude
+#define DEFAULT_LATITUDE                        33.02593f              // Default Latitude  
+#define DEFAULT_LONGITUDE                       -117.05496f              // Default Longitude
 
 #define DEFAULT_SYSLOG_IP                       ""                // Syslog IP Address
 #define DEFAULT_SYSLOG_LEVEL                    0                 // Syslog Log Level
